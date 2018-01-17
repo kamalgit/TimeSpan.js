@@ -201,6 +201,7 @@
         this.getVersion = function () {
             return version;
         };
+        // toString use this format "hh:mm.dd"
         this.toString = function () {
             var text = "";
             var negative = false;
